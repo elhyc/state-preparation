@@ -6,3 +6,6 @@ This repository contains some code which implements a quantum state preparation 
 
 In particular, the notebook [StatePrep.ipynb](StatePrep.ipynb) defines a Qiskit function which takes in an $N = 2^{n}$ dimensional complex state vector $\psi = \sum_{x} \psi_{x} \ket{x}_{n}$, and outputs a circuit $U$ such that 
 
+$$
+U \ket{0}_{n} =  \sum_{x} \psi_{x} \ket{x}_{n}
+$$
